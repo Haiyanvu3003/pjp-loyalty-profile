@@ -7,12 +7,19 @@ export default function Gold610Policy() {
         </div>
   
         <div className="px-4 sm:px-6 md:px-8 py-8 overflow-x-auto">
-          <div className="w-[700px] md:w-full relative flex justify-start items-start gap-[160px]">
+          <div className="w-fit mx-auto relative flex justify-start items-start gap-[160px]">
             {/* Thanh tiến độ */}
             <div className="absolute top-[38px] left-[36px] right-[36px] h-[10px] bg-[#D5E3FF] z-0" />
-            <div className="absolute top-[38px] left-[36px] w-[50%] h-[10px] bg-blue-600 z-10" />
+            <div className="absolute top-[38px] left-[36px] w-[56%] h-[10px] bg-blue-600 z-10" />
   
-            {/* Mốc 600 */}
+            {/* Mốc 0 */}
+            <div className="z-20 flex flex-col items-center w-[160px] translate-x-[-72px]">
+              <div className="w-[72px] h-[72px] bg-white border-[4px] border-green-700 rounded-full flex items-center justify-center text-xs font-bold text-green-900 text-center leading-tight uppercase shadow-[0_0_0_2px_white,0_0_0_1px_#166534,0_0_6px_rgba(0,0,0,0.1)]">
+                0
+              </div>
+            </div>
+  
+            {/* Mốc 600 TRIỆU */}
             <div className="z-20 flex flex-col items-center w-[160px] ml-[-14px]">
               <div className="w-[72px] h-[72px] bg-white border-[4px] border-green-700 rounded-full flex items-center justify-center text-xs font-bold text-green-900 text-center leading-tight uppercase shadow-[0_0_0_2px_white,0_0_0_1px_#166534,0_0_6px_rgba(0,0,0,0.1)]">
                 600 TRIỆU
@@ -26,7 +33,7 @@ export default function Gold610Policy() {
               </div>
             </div>
   
-            {/* Mốc 1000 */}
+            {/* Mốc 1 TỶ */}
             <div className="z-20 flex flex-col items-center w-[160px] translate-x-[60px]">
               <div className="w-[72px] h-[72px] bg-white border-[4px] border-green-700 rounded-full flex items-center justify-center text-xs font-bold text-green-900 text-center leading-tight uppercase shadow-[0_0_0_2px_white,0_0_0_1px_#166534,0_0_6px_rgba(0,0,0,0.1)]">
                 1 TỶ
