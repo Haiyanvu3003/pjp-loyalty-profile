@@ -24,8 +24,12 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white px-4 sm:px-6 md:px-10 py-8 font-sans">
-      {/* Logo */}
-      <img src="/logo.svg" alt="Logo" className="h-12 sm:h-14 md:h-16 mb-6" />
+      {/* ✅ Logo mới */}
+      <img
+        src="/Xanh.png"
+        alt="PJP Logo"
+        className="h-[100px] sm:h-[120px] md:h-[140px] mb-6"
+      />
 
       {/* Tiêu đề */}
       <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-green-900 text-center uppercase leading-snug mb-4">
