@@ -15,10 +15,16 @@ export default function ProfilePage() {
 
   return (
     <div className="min-h-screen w-full bg-white font-sans">
-      {/* Banner */}
-      <div className="w-full">
-        <img src="/banner.jpg" alt="Banner" className="w-full object-cover h-auto" />
-      </div>
+     {/* Banner - Load nhanh + không nhảy layout */}
+<div className="w-full">
+  <img
+    src="/banner.jpg"
+    alt="Banner"
+    className="w-full object-cover h-[200px] sm:h-[280px] md:h-[400px]"
+    loading="eager"
+  />
+</div>
+
 
       {/* Tiêu đề */}
       <div className="text-center mt-6 mb-8">
