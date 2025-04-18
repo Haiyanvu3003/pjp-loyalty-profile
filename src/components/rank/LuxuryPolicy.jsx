@@ -50,7 +50,7 @@ export default function LuxuryPolicy() {
             <thead>
               <tr className="bg-green-800 text-white text-center">
                 <th className="px-2 py-3 w-[120px] border border-green-700" colSpan={2} rowSpan={2}>ĐỐI TƯỢNG</th>
-                <th className="px-2 py-3 w-[180px] border border-green-700" rowSpan={2}>KHÔNG ÁP DỤNG</th>
+                <th className="px-2 py-3 w-[180px] border border-green-700" rowSpan={2}>CHƯƠNG TRÌNH KHÁCH HÀNG MỚI</th>
                 <th className="px-2 py-3 w-[250px] border border-green-700" colSpan={2}>CHƯƠNG TRÌNH ĐỐI TÁC CHIẾN LƯỢC</th>
               </tr>
               <tr className="bg-green-800 text-white text-center">
