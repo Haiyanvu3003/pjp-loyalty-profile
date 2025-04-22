@@ -1,11 +1,11 @@
 // src/components/rank/LuxuryPolicy.jsx
-import RankSummary from "./RankSummary";
+import RankSummaryLuxury from "./RankSummaryLuxury";
 
 export default function LuxuryPolicy() {
   return (
     <div className="w-full bg-white font-sans min-h-screen px-4 sm:px-6 md:px-[50px] pt-10 pb-20">
       {/* PHẦN 1: Thông tin hạng hiện tại */}
-      <RankSummary />
+      <RankSummaryLuxury />
 
       {/* PHẦN 2: Chính sách dòng hàng cao cấp - BẢNG 1 */}
       <div className="px-2 sm:px-4 md:px-6 py-6 overflow-x-auto">
@@ -25,18 +25,18 @@ export default function LuxuryPolicy() {
             <tbody>
               <tr className="text-center">
                 <td className="border border-green-700 p-3 font-bold text-green-800 uppercase" rowSpan={4}>KHÁCH HÀNG MỚI</td>
-                <td className="border border-green-700 p-3 italic">Ưu đãi <strong>500 nghìn</strong> cho hóa đơn đầu tiên<br />DT công từ <strong>50 triệu</strong></td>
+                <td className="border border-green-700 p-3 italic">Ưu đãi <strong>500 nghìn</strong> cho hóa đơn đầu tiên<br />DT hóa đơn từ <strong>50 triệu</strong></td>
                 <td className="border border-green-700 p-3 italic text-green-700 font-semibold" rowSpan={4}>KHÔNG ÁP DỤNG</td>
                 <td className="border border-green-700 p-3 italic text-green-700 font-semibold" rowSpan={4}>KHÔNG ÁP DỤNG</td>
               </tr>
               <tr className="text-center">
-                <td className="border border-green-700 p-3 italic">Ưu đãi <strong>1,5 triệu</strong> cho hóa đơn đầu tiên<br />DT công từ <strong>100 triệu</strong></td>
+                <td className="border border-green-700 p-3 italic">Ưu đãi <strong>1,5 triệu</strong> cho hóa đơn đầu tiên<br />DT hóa đơn từ <strong>100 triệu</strong></td>
               </tr>
               <tr className="text-center">
-                <td className="border border-green-700 p-3 italic">Nhận gói quà tặng trị giá <strong>15 triệu</strong> cho hóa đơn đầu tiên DT công từ <strong>1 Tỷ</strong></td>
+                <td className="border border-green-700 p-3 italic">Nhận gói quà tặng trị giá <strong>15 triệu</strong> cho hóa đơn đầu tiên DT hóa đơn từ <strong>1 Tỷ</strong></td>
               </tr>
               <tr className="text-center">
-                <td className="border border-green-700 p-3 italic">Nhận gói quà tặng trị giá <strong>35 triệu</strong> cho hóa đơn đầu tiên DT công từ <strong>2 Tỷ</strong></td>
+                <td className="border border-green-700 p-3 italic">Nhận gói quà tặng trị giá <strong>35 triệu</strong> cho hóa đơn đầu tiên DT hóa đơn từ <strong>2 Tỷ</strong></td>
               </tr>
             </tbody>
           </table>

@@ -13,29 +13,16 @@ export default function RankSummary() {
           </button>
         </div>
 
-        {/* Chiết khấu */}
-        <div className="text-base sm:text-lg text-gray-800">
-          Chiết khấu hiện tại của bạn cao nhất là:{" "}
-          <span className="font-bold text-green-700">6%</span>
-        </div>
 
         {/* Tổng doanh thu từng dòng hàng */}
         <div className="space-y-1 text-sm sm:text-base text-gray-700">
-          <p>
-            Tông doanh thu công dòng hàng Truyền Thống hiện tại:{" "}
-            <span className="text-blue-600 underline font-medium">1.600.000.000 VND</span>
-          </p>
-          <p>
-            Tổng doanh thu hóa đơn dòng hàng cao cấp hiện tại:{" "}
-            <span className="text-blue-600 underline font-medium">0 VND</span>
-          </p>
+         
+         
           <p>
             Tổng doanh thu công Tuổi Vàng 610 hiện tại:{" "}
             <span className="text-blue-600 underline font-medium">700.000.000 VND</span>
           </p>
-          <p className="text-sm sm:text-base text-green-800 font-semibold mt-2">
-            ỨNG TRƯỚC NGUYÊN LIỆU CHIẾT KHẤU: <span className="text-green-900">2%</span>
-          </p>
+         
         </div>
       </div>
     </div>

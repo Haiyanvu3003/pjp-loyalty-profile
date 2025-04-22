@@ -2,13 +2,7 @@
 
 export default function TraditionalPolicy() {
     const data = [
-      {
-        label: "KHÁCH HÀNG MỚI",
-        benefits: [
-          { title: "Chiết khấu 8%", condition: "DT công = 10 triệu", sub: "(cho đơn hàng đầu tiên)" },
-          { title: "Chiết khấu 10%", condition: "DT công = 20 triệu", sub: "(cho đơn hàng đầu tiên)" },
-        ],
-      },
+     
       {
         label: "MEMBER",
         benefits: [
