@@ -1,4 +1,3 @@
-// src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import OtpPage from "./pages/OtpPage";
@@ -7,6 +6,7 @@ import ProfileContact from "./components/ProfileContact";
 import RankPage from "./pages/RankPage";
 import Gold610Page from "./pages/Gold610Page";
 import LuxuryPolicy from "./components/rank/LuxuryPolicy";
+import OrderHistoryPage from "./pages/OrderHistoryPage"; // 👈 import thêm trang này
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           <Route path="rank" element={<RankPage />} />
           <Route path="gold610" element={<Gold610Page />} />
           <Route path="luxury" element={<LuxuryPolicy />} />
+          <Route path="orders" element={<OrderHistoryPage />} /> {/* 👈 bổ sung dòng này */}
         </Route>
       </Routes>
     </Router>
